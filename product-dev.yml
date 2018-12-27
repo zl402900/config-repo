@@ -5,5 +5,10 @@ spring:
     password: root
     url: jdbc:mysql://127.0.0.1:3306/springcloud?useUnicode=true&characterEncoding=utf8
     username: root
+  rabbitmq:
+    host:localhost
+    port:5672
+    username:guest
+    password:guest
   jpa:
     show-sql: true
